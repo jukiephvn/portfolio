@@ -1,6 +1,7 @@
 
 
 
+
 a[disabled], input[disabled], button[disabled], textarea[disabled] {
     cursor: not-allowed !important;
     opacity: .5 !important;
@@ -803,7 +804,7 @@ ul {
 
 .header.is-scroll {
     top: 0;
-    box-shadow: 0 2px 92px 0 rgba(0, 0, 0, .18);
+    box-shadow: 0 2px 92px 0 rgba(0, 0, 0, 0);
 }
 
 .header__inner {
