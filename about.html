@@ -1,295 +1,175 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>About | Julie Phan</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<meta name="format-detection" content="telephone=no">
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<!-- Fonts-->
-		<link rel="stylesheet" type="text/css" href="assets/fonts/fontawesome/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="assets/fonts/pe-icon/pe-icon.css">
-		<!-- Vendors-->
-		<link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap/grid.css">
-		<link rel="stylesheet" type="text/css" href="assets/vendors/magnific-popup/magnific-popup.min.css">
-		<link rel="stylesheet" type="text/css" href="assets/vendors/swiper/swiper.css">
-		<!-- App & fonts-->
-		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:400,700">
-		<link rel="stylesheet" type="text/css" id="app-stylesheet" href="assets/css/about.css">
-		<link href="https://fonts.googleapis.com/css?family=Lexend" rel='stylesheet'>
-
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me | Julie's Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Maitree:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-	</head>
-	
-	<body>
 
-		<div class="page-wrap" id="root">
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="assets/css/about.css">
+</head>
+<body>
 
+<!-- Navbar -->
+<header class="nav-wrapper">
+  <nav class="navbar">
+    <div class="logo">Julie</div>
 
-			
-			<!-- header -->
-			<header class="header header--fixed">
+    <!-- Checkbox for mobile menu toggle -->
+    <input type="checkbox" id="menu-toggle" />
+    <label class="hamburger" for="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
 
-				<div class="header__inner">
-					<h5 class="logo">julie</h5>
-					<div class="navbar-toggle" id="fs-button">
-						<div class="navbar-icon"><span></span></div>
-					</div>
-				</div>
-				
-				<!-- fullscreenmenu__module -->
-				<div class="fullscreenmenu__module" trigger="#fs-button">
-					
-					<!-- overlay-menu -->
-					<nav class="overlay-menu">
-						
-						<!--  -->
-						<ul class="wil-menu-list">
-							<li class="current-menu-item"><a href="index.html">Home</a>
-							</li>
+    <ul class="menuItems">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="project.html">Product</a></li>
+      <li><a href="work.html">Design</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+</header>
 
-							<li><a href="work.html">Work</a>
-							</li>
+  <!-- Section 1: Header -->
+  <section class="about-header container">
+    <h3>About Me</h3>
+    <a class="intro-btn">Julie Phan 👋</a>
+  </section>
+
+  <!-- Section 2: Main Content -->
+  <section class="about-main">
+    <div class="container">
+      <div class="about-container">
+        
+        <!-- Left Column: Image -->
+        <div class="about-image">
+          <img src="assets/img/pfp.JPG" alt="Julie Phan">
+        </div>
 
-							<li><a href="project.html">Project</a>
-							</li>
+        <!-- Right Column: Info -->
 
-							<li><a href="about.html">About</a>
-							</li>
-	
-	
-						</ul><!--  -->
-						
-					</nav><!-- End / overlay-menu -->
-					
-				</div><!-- End / fullscreenmenu__module -->
-				
-			</header><!-- End / header -->
-			
+        <div class="about-info">
+        <p class="intro">
+          Hello! I'm a <span class="designer">designer</span> who believes creativity should feel as <em>joyful</em> as it is functional.  
 
+          I specialize in turning wireframes into <span class="bloom">experiences that bloom with life</span>.
+        </p>
 
+        <hr>
 
+        <!-- About Me -->
+        <div class="about-info">
+          <h3>A little more about me:</h3>
+          <ul class="about-list">
+            <li>B.S. in Cognitive Science, Minor in Digital Humanities – UCLA '25</li>
+            <li>I love pickleball and board games ⚁</li>
+          </ul>
+        </div>
 
-	<!-- First Box -->
 
-	<section class="bg-about">
+        <hr>
 
-	
-<br>
-<br>
-<br>
-<br>
+        <!-- About Me -->
+        <div class="about-info">
+          <h3>Experiences:</h3>
+          <ul class="about-list">
+            <li>Lead Design | UCLA Student Affairs | 2022-2025</li>
+            
+            <li>Creative Director | UCLA ENIGMA | 2022-2025</li>
 
-			<div class="container">
+            <li>Design Lead | UCLA DEVX | 2023-2025</li>
 
-				
-				
-				<section id="julie-img">
-					<img src="assets/img/me.png" alt="">
-				</section>
-			
-				
-				<section id="julie-p">
 
-					
+            <li>UX/UI Intern | GBCS Group | 2023</li>
+          
 
-					<h3 class="about__title"><br>Hi there! I'm Julie &#128522</h3>
-					<br>
-					<p class="about__text">I’m a <span style="color: #7C81B2"><strong>designer</strong></span> specializing in UX/UI design, web design, and graphic design. 
+          </ul>
+        </div>
 
-					<br>	
 
-					</p>
-			
-				</section>
+        <hr>
 
-			</div>
 
-			<br>
-			<br>
+        <div class="contact-buttons">
+          <a href="https://drive.google.com/file/d/1vPg8i_2Ix5w3N_l0IJXru3JbNc-RUi4n/view?usp=sharing" target="_blank" class="about-btn">
+            <i class="fa-solid fa-file-pdf"></i> RESUME
+          </a>
+          <a href="https://www.linkedin.com/in/juliephan12/" target="_blank" class="about-btn">
+            <i class="fa-brands fa-linkedin"></i> LINKEDIN
+          </a>
+        </div>
 
-	</section>
 
-<section class="bg-white">
+        
+      </div>
+    </div>
+  </section>
 
 
-<div class="container">
 
 
-<section id="column-l">
 
-	<section class="about-huge-text">Skills</section>
 
-<br>
 
-		<img class="resize" src="assets/img/skills-logo.png" >
+  
 
+  <!-- Marquee / Ticker -->
+  <div class="marquee">
+    <div class="container">
+      <div class="marquee__track">
+        <span>Adobe Illustrator</span>
+        <span>Adobe InDesign</span>
+        <span>FIGMA</span>
+        <span>Framer</span>
+        <span>Procreate</span>
+        <span>HTML/CSS</span>
+        <span>Wireframing</span>
+        <span>Prototyping</span>
+        <span>Adobe Illustrator</span>
+        <span>Adobe InDesign</span>
+        <span>FIGMA</span>
+        <span>Framer</span>
+        <span>Procreate</span>
+        <span>HTML/CSS</span>
+        <span>Wireframing</span>
+        <span>Prototyping</span>
+      </div>
+    </div>
+  </div>
 
 
-<section class="about-huge-text">Education</section>
 
 
-	<div class="about-boxes">
 
 
 
-		<div class="about-detail">
+  <!-- Footer -->
+  <footer id="main-footer">
+    <div class="container">
+      <p>Copyright &copy; 2025 | Julie's Portfolio ♡</p>
+    </div>
+  </footer>
 
-			Student at
-			<span style="color: #CBABC2">University of California, Los Angeles</span><br>
-			<span style="color: #111"><small>Cognitive Science Major : Digital Humanities Minor</small></span><br>
-			<span style="color: #959595"><small><em>Los Angeles | 2021 - 2025</em></small></span>
+  <!-- Navbar Script -->
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const menu = document.querySelector(".menuItems");
 
-		</div>
+    hamburger.addEventListener("click", () => {
+      const isActive = hamburger.classList.toggle("active");
+      menu.classList.toggle("active");
+      hamburger.setAttribute("aria-expanded", isActive);
+    });
+  </script>
 
-		<br>
-
-		<div class="about-detail">
-
-			Student at
-			<span style="color: #DDBBD4">Yerba Buena High School</span><br>
-			<span style="color: #959595"><small><em>San Jose | 2017 - 2021</em></small></span>
-
-		</div>
-
-		<br>
-		<br>
-
-	</div>
-
-
-</section>
-
-
-
-<section id="column-r">
-
-
-	<div class="about-boxes">
-
-		<section class="about-huge-text">Experience</section>
-
-		<br>
-
-		<div class="about-detail">
-
-			UX/UI Designer at
-			<span style="color: #979CCE">UCLA DevX</span><br>
-			<span style="color: #959595"><small><em>Oct 2023 - Present</em></small></span>
-			</small></span>
-
-
-		</div>
-
-		<br>
-
-		<div class="about-detail">
-
-			Lead Design at
-			<span style="color: #979CCE">UCLA Media Student Affairs</span><br>
-			<span style="color: #959595"><small><em>Sept 2022 - Present</em></small></span>
-
-		</div>
-
-		<br>
-
-		<div class="about-detail">
-
-			UX/UI Design Intern at
-			<span style="color: #979CCE">GBCS Group</span><br>
-			<span style="color: #959595"><small><em>May 2023 - August 2023</em></small></span><br>
-
-
-		</div>
-
-		<br>
-
-		<div class="about-detail">
-
-			Creative Director at
-			<span style="color: #979CCE">UCLA ENIGMA</span><br>
-			<span style="color: #959595"><small><em>June 2022 - Present</em></small></span>
-
-		</div>
-
-		<br>
-
-		<div class="about-detail">
-
-			Administrative Design at 
-			<span style="color: #979CCE">Studyist</span><br>
-			<span style="color: #959595"><small><em>June 2020 - Nov 2022</em></small></span>
-
-		</div>
-
-		<br>
-
-		<div class="about-detail">
-
-			Designer at
-			<span style="color: #979CCE">Scholarbuzz</span><br>
-			<span style="color: #959595"><small><em>Nov 2022 - Jan 2023</em></small></span>
-
-		</div>
-
-		<br>
-		<br>
-
-	</div>
-
-
-	<a class="gradient-button gradient-button-1" a href="https://drive.google.com/file/d/1wm268yUm3VM6XXeG8847CK8Q_46TnNto/view?usp=sharing" target="_blank">Resume</a>
-	<a class="gradient-button gradient-button-2" a href="https://www.linkedin.com/in/juliephan12/" target="_blank">Linkedin</a>
-
-</section>
-
-</div>
-
-
-
-
-</div>
-
-
-<!-- footer -->
-
-	<br>
-	<br>
-	<br>
-	<br>
-
-	<footer id="main-footer">
-
-		<p>Copyright &copy; 2023 | Julie's Portfolio ♡</p>
-
-	</footer>
-
-</section>
-
-
-
-
-
-
-			<!-- End / Section -->
-				
-
-		<!-- Vendors-->
-		<script type="text/javascript" src="assets/vendors/jquery/jquery.min.js"></script>
-		<script type="text/javascript" src="assets/vendors/imagesloaded/imagesloaded.pkgd.js"></script>
-		<script type="text/javascript" src="assets/vendors/isotope-layout/isotope.pkgd.js"></script>
-		<script type="text/javascript" src="assets/vendors/jquery-one-page/jquery.nav.min.js"></script>
-		<script type="text/javascript" src="assets/vendors/jquery.easing/jquery.easing.min.js"></script>
-		<script type="text/javascript" src="assets/vendors/jquery.matchHeight/jquery.matchHeight.min.js"></script>
-		<script type="text/javascript" src="assets/vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
-		<script type="text/javascript" src="assets/vendors/masonry-layout/masonry.pkgd.js"></script>
-		<script type="text/javascript" src="assets/vendors/jquery.waypoints/jquery.waypoints.min.js"></script>
-		<script type="text/javascript" src="assets/vendors/swiper/swiper.jquery.js"></script>
-		<script type="text/javascript" src="assets/vendors/menu/menu.js"></script>
-		<script type="text/javascript" src="assets/vendors/typed/typed.min.js"></script>
-		<!-- App-->
-		<script type="text/javascript" src="assets/js/main.js"></script>
-
-
-	</body>
+</body>
 </html>
